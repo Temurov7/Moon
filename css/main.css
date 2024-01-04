@@ -507,7 +507,7 @@ template {
 }
 
 .destination-header__navbar-link:hover span {
-  max-width: 127px;
+  max-width: 100%;
   height: 3px;
   background: #FFF;
 }
@@ -630,7 +630,7 @@ h1 {
 
 .destination-header__about-line {
   display: inline-block;
-  width: 444px;
+  max-width: 444px;
   height: 1px;
   background: #383B4B;
 }
@@ -666,4 +666,18 @@ h1 {
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
+}
+
+.destination-header__about-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.destination-header__about-item:hover > span {
+  color: #FFF;
+  display: inline-block;
+  max-width: 100%;
+  height: 3px;
+  background: #FFF;
 }/*# sourceMappingURL=main.css.map */
