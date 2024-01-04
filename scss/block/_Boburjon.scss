@@ -1,0 +1,92 @@
+.destination-body{
+    margin-top: 40px;
+    background-image: url("../Images/destination-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.destination-header__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.destination-header__nav{
+    padding: 39px 167px 38px 123px;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.774227142333984px);
+}
+.destination-header__navbar-list{
+    display: flex;
+    gap: 50px;
+}
+.destination-header__navbar-text{
+    color: #FFF;
+    font-family: Barlow Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.7px;
+}
+.destination-header__navbar-title{
+    color: #FFF;
+    font-family: Barlow Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.7px;
+}
+.destination-header__box{
+    margin-top: 77px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.destination-header__card-text{
+    color: #FFF;
+    font-family: Barlow Condensed;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4.725px;
+    opacity: 0.25;
+}
+.destination-header__card-title{
+    color: #FFF;
+    font-family: Barlow Condensed;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+}
+.destination-header__card{
+    display: flex;
+    flex-direction: column;
+}
+.destination-header__card-box{
+    display: flex;
+    gap: 28px;
+}
+.destination-header__about-box{
+    margin-top: 37px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 54px;
+}
+.destination-header__about-list{
+    display: flex;
+    gap: 35px;
+}
+.destination-header__about-link{
+    color: #FFF;
+    font-family: Barlow Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.7px;
+}

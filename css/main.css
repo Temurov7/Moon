@@ -11,10 +11,6 @@ body {
   font-family: "Barlow", sans-serif;
 }
 
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-/* Document
-   ========================================================================== */
-/**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
@@ -24,7 +20,7 @@ html {
 }
 
 /* Sections
-   ========================================================================== */
+    */
 /**
  * Remove the margin in all browsers.
  */
@@ -49,7 +45,7 @@ h1 {
 }
 
 /* Grouping content
-   ========================================================================== */
+    */
 /**
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
@@ -70,7 +66,7 @@ pre {
 }
 
 /* Text-level semantics
-   ========================================================================== */
+    */
 /**
  * Remove the gray background on active links in IE 10.
  */
@@ -136,7 +132,7 @@ sup {
 }
 
 /* Embedded content
-   ========================================================================== */
+    */
 /**
  * Remove the border on images inside links in IE 10.
  */
@@ -145,7 +141,7 @@ img {
 }
 
 /* Forms
-   ========================================================================== */
+    */
 /**
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
@@ -290,7 +286,7 @@ textarea {
 }
 
 /* Interactive
-   ========================================================================== */
+    */
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
@@ -306,7 +302,7 @@ summary {
 }
 
 /* Misc
-   ========================================================================== */
+    */
 /**
  * Add the correct display in IE 10+.
  */
@@ -341,6 +337,24 @@ template {
   padding: 0 20px;
 }
 
+
+.destination-body {
+  margin-top: 40px;
+  background-image: url("../Images/destination-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.destination-header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.destination-header__nav {
+  padding: 39px 167px 38px 123px;
+  background: rgba(255, 255, 255, 0.04);
+
 .body-home {
   background-image: url(../../Images/body-img.png);
   background-repeat: no-repeat;
@@ -365,9 +379,23 @@ template {
   width: 830px;
   height: 96px;
   background-color: rgba(255, 255, 255, 0.04);
+
   -webkit-backdrop-filter: blur(40.7742271423px);
           backdrop-filter: blur(40.7742271423px);
 }
+
+
+.destination-header__navbar-list {
+  display: flex;
+  gap: 50px;
+}
+
+.destination-header__navbar-text {
+  color: #FFF;
+  font-family: Barlow Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
 
 .header__navbar::before {
   content: " ";
@@ -396,9 +424,18 @@ template {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+
   line-height: normal;
   letter-spacing: 2.7px;
 }
+
+
+.destination-header__navbar-title {
+  color: #FFF;
+  font-family: Barlow Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
 
 .header__link-bold {
   margin-right: 12px;
@@ -410,16 +447,74 @@ template {
   letter-spacing: 2.7px;
 }
 
+
+.destination-header__box {
+  margin-top: 77px;
 .hero-section {
   padding-bottom: 131px;
 }
 
 .hero {
+
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+
+.destination-header__card-text {
+  color: #FFF;
+  font-family: Barlow Condensed;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 4.725px;
+  opacity: 0.25;
+}
+
+.destination-header__card-title {
+  color: #FFF;
+  font-family: Barlow Condensed;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4.725px;
+  text-transform: uppercase;
+}
+
+.destination-header__card {
+  display: flex;
+  flex-direction: column;
+}
+
+.destination-header__card-box {
+  display: flex;
+  gap: 28px;
+}
+
+.destination-header__about-box {
+  margin-top: 37px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 54px;
+}
+
+.destination-header__about-list {
+  display: flex;
+  gap: 35px;
+}
+
+.destination-header__about-link {
+  color: #FFF;
+  font-family: Barlow Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.7px;
 .hero__content {
   width: 475px;
 }
@@ -473,4 +568,5 @@ template {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 2px;
+
 }/*# sourceMappingURL=main.css.map */
