@@ -3,14 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Bellefair&display=swap" rel="stylesheet">
+    <title>Moon</title>
 </head>
-<body>
+<body class="body-home">
    <!-- site Header start   -->
    <header class="site-header">
     <div class="container">
         <div class="header">
-            Dilshod
+            <a class="header__logo-link" href="/">
+                <img src="./Images/logo.svg" alt="Moon logo" width="48" height="48">
+            </a>
+            
+            <nav class="header__navbar">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a href="./index.html" class="header__link">
+                            <strong class="header__link-bold">00</strong>HOME
+                        </a>
+                    </li>
+                    <li class="header__item">
+                        <a target="blank" href="./destination.html" class="header__link">
+                            <strong class="header__link-bold">01</strong>DESTINATION
+                        </a>
+                    </li>
+                    <li class="header__item">
+                        <a target="blank" href="./crew.html" class="header__link">
+                            <strong class="header__link-bold">02</strong>CREW
+                        </a>
+                    </li>
+                    <li class="header__item">
+                        <a target="blank" href="./technology.html" class="header__link">
+                            <strong class="header__link-bold">03</strong>TECHNOLOGY
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </div>
    </header>
@@ -21,7 +52,16 @@
     <section class="hero-section">
         <div class="container">
             <div class="hero">
-                <!-- ...  -->
+               <div class="hero__content">
+                    <strong class="hero__bold">SO, YOU WANT TO TRAVEL TO</strong>
+                    <h2 class="hero__title">SPACE</h2>
+                    <div class="hero__inner">
+                    <p class="hero__text">Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!</p>
+                </div>
+               </div>
+               <div class="hero__wrapper">
+                <span class="hero__line">EXPLORE</span>
+               </div>
             </div>
         </div>
     </section>
