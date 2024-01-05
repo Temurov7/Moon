@@ -338,9 +338,13 @@ template {
 
 .crew-body {
   background: #0B0D17;
+  background-image: url(../Images/bitmap-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .crew-header {
+  margin-top: 71px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -402,4 +406,84 @@ template {
   line-height: normal;
   letter-spacing: 2.7px;
   margin-right: 12px;
+}
+
+.crew-img-brat {
+  position: absolute;
+  right: 365px;
+  bottom: 0;
+}
+
+.crew-all {
+  display: flex;
+}
+
+.crew-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 120px;
+}
+
+.crew-meet {
+  display: inline-flex;
+  padding-right: 4px;
+  align-items: flex-start;
+  gap: 24px;
+  color: #FFF;
+  font-family: "Barlow", Condensed;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4.725px;
+  text-transform: uppercase;
+  margin-bottom: 154px;
+  margin-top: 76px;
+}
+
+.number {
+  color: #FFF;
+  font-family: "Barlow", Condensed;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 4.725px;
+  opacity: 0.25;
+  margin-right: 24px;
+}
+
+.crew-commander {
+  color: #FFF;
+  font-family: "Bellefair";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  opacity: 0.5042;
+  margin-bottom: 15px;
+}
+
+.crew__crew-title {
+  color: #FFF;
+  font-family: "Bellefair";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 27px;
+}
+
+.crew__crew-text {
+  width: 444px;
+  color: #D0D6F9;
+  font-family: Barlow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+  margin-bottom: 120px;
 }/*# sourceMappingURL=main.css.map */
