@@ -341,6 +341,12 @@ template {
   padding: 0 20px;
 }
 
+.crew-body {
+  background: #0B0D17;
+}
+
+.crew-header {
+
 .body-home {
   background-image: url(../Images/body-img.png);
   background-repeat: no-repeat;
@@ -356,6 +362,50 @@ template {
   align-items: center;
   justify-content: space-between;
 }
+
+.crew-header__crew-logo {
+  display: inline-block;
+}
+
+.crew-line {
+  width: 260px;
+  height: 1px;
+  flex-shrink: 0;
+  opacity: 0.2515;
+  background: #FFF;
+  position: absolute;
+  left: 520px;
+  z-index: 2;
+}
+
+.crew-header__crew-navbar-list {
+  padding-left: 121px;
+  padding-right: 162px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.04);
+  -webkit-backdrop-filter: blur(40.7742271423px);
+          backdrop-filter: blur(40.7742271423px);
+  color: rgba(255, 255, 255, 0.0392156863);
+  position: relative;
+  z-index: 1;
+}
+
+.crew-list__crew-content {
+  width: 600px;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.crew-list__crew-item {
+  color: #FFF;
+  font-family: "Barlow", Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
 
 .header__logo-link {
   display: inline-block;
@@ -544,6 +594,16 @@ template {
   line-height: normal;
   letter-spacing: 2.7px;
 }
+
+.crew-list__crew-span {
+  color: #FFF;
+  font-family: "Barlow", Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.7px;
+  margin-right: 12px;
 
 .destination-header__navbar-title {
   color: #FFF;
