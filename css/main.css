@@ -13,7 +13,7 @@ body {
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
-    */
+   ========================================================================== */
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
@@ -24,7 +24,7 @@ html {
 }
 
 /* Sections
-    */
+   ========================================================================== */
 /**
  * Remove the margin in all browsers.
  */
@@ -49,7 +49,7 @@ h1 {
 }
 
 /* Grouping content
-    */
+   ========================================================================== */
 /**
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
@@ -70,7 +70,7 @@ pre {
 }
 
 /* Text-level semantics
-    */
+   ========================================================================== */
 /**
  * Remove the gray background on active links in IE 10.
  */
@@ -136,7 +136,7 @@ sup {
 }
 
 /* Embedded content
-    */
+   ========================================================================== */
 /**
  * Remove the border on images inside links in IE 10.
  */
@@ -145,7 +145,7 @@ img {
 }
 
 /* Forms
-    */
+   ========================================================================== */
 /**
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
@@ -290,7 +290,7 @@ textarea {
 }
 
 /* Interactive
-    */
+   ========================================================================== */
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
@@ -306,7 +306,7 @@ summary {
 }
 
 /* Misc
-    */
+   ========================================================================== */
 /**
  * Add the correct display in IE 10+.
  */
@@ -341,27 +341,8 @@ template {
   padding: 0 20px;
 }
 
-
-.technology-body {
-  background-image: url("../../Images/technology-bg-img.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.site-technology {
-  padding: 43px;
-}
-
-.header__content-technology {
-
-.crew-body {
-  background: #0B0D17;
-}
-
-.crew-header {
-
 .body-home {
-  background-image: url(../Images/body-img.png);
+  background-image: url(../../Images/body-img.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -375,71 +356,6 @@ template {
   align-items: center;
   justify-content: space-between;
 }
-
-.header__logo-link-technology {
-  display: inline-block;
-}
-
-.technology__list-card {
-  width: 830px;
-  height: 96px;
-  background: rgba(255, 255, 255, 0.04);
-  -webkit-backdrop-filter: blur(40.7742271423px);
-          backdrop-filter: blur(40.7742271423px);
-}
-
-.technology__navbar {
-  padding-top: 39px;
-  padding-left: 123px;
-
-.crew-header__crew-logo {
-  display: inline-block;
-}
-
-.crew-line {
-  width: 260px;
-  height: 1px;
-  flex-shrink: 0;
-  opacity: 0.2515;
-  background: #FFF;
-  position: absolute;
-  left: 520px;
-  z-index: 2;
-}
-
-.crew-header__crew-navbar-list {
-  padding-left: 121px;
-  padding-right: 162px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: rgba(255, 255, 255, 0.04);
-  -webkit-backdrop-filter: blur(40.7742271423px);
-          backdrop-filter: blur(40.7742271423px);
-  color: rgba(255, 255, 255, 0.0392156863);
-  position: relative;
-  z-index: 1;
-}
-
-.crew-list__crew-content {
-  width: 600px;
-  height: 96px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.technology__navbar + .technology__navbar {
-  margin-left: 50px;
-}
-
-.technology__list {
-
-.crew-list__crew-item {
-  color: #FFF;
-  font-family: "Barlow", Condensed;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
 
 .header__logo-link {
   display: inline-block;
@@ -476,12 +392,34 @@ template {
 }
 
 .header__link {
+  padding-bottom: 38px;
   color: #FFF;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   letter-spacing: 2.7px;
+  position: relative;
+}
+
+.header__link::before {
+  content: " ";
+  width: 0;
+  height: 3px;
+  background-color: #FFF;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+
+.header__link:hover::before {
+  width: 100%;
+}
+
+.header__link:active::before {
+  width: 100%;
+  opacity: 0.5;
 }
 
 .header__link-bold {
@@ -498,32 +436,12 @@ template {
   padding-bottom: 131px;
 }
 
-
 .hero {
   display: flex;
-  align-items: center;
+  align-items: end;
   justify-content: space-between;
 }
 
-.hero__content {
-  width: 475px;
-}
-
-.hero__bold {
-  margin-bottom: 24px;
-
-
-.hero {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.technology__item + .technology__item {
-  margin-left: 50px;
-}
-
-.technology__link {
 .hero__content {
   width: 475px;
 }
@@ -531,7 +449,6 @@ template {
 .hero__bold {
   margin-bottom: 24px;
   display: inline-block;
-
   color: #D0D6F9;
   font-size: 28px;
   font-style: normal;
@@ -558,7 +475,7 @@ template {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px; /* 177.778% */
+  line-height: 32px;
 }
 
 .hero__wrapper {
@@ -567,6 +484,7 @@ template {
   text-align: center;
   border-radius: 274px;
   background-color: #FFF;
+  cursor: pointer;
 }
 
 .hero__line {
@@ -578,7 +496,6 @@ template {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: 2px;
 }
 
 .destination-body {
@@ -623,7 +540,6 @@ template {
   flex-direction: column;
 }
 
-
 .destination-header__navbar-text {
   color: #FFF;
   font-family: Barlow Condensed;
@@ -634,16 +550,6 @@ template {
   letter-spacing: 2.7px;
 }
 
-.crew-list__crew-span {
-  color: #FFF;
-  font-family: "Barlow", Condensed;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 2.7px;
-  margin-right: 12px;
-
 .destination-header__navbar-title {
   color: #FFF;
   font-family: Barlow Condensed;
@@ -653,12 +559,6 @@ template {
   line-height: normal;
   letter-spacing: 2.7px;
 }
-
-.technology-section {
-  padding: 76px 0 0 110px;
-}
-
-.technology__title {
 
 .destination-header__box {
   margin-top: 77px;
@@ -672,27 +572,6 @@ template {
   font-family: Barlow Condensed;
   font-size: 28px;
   font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 4.725px;
-}
-
-.technology__spans {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-}
-
-.technology__span {
-  width: 80px;
-  height: 80px;
-  flex-shrink: 0;
-  background-color: #fff;
-  border-radius: 50%;
-}
-
-.technology__span-text {
-  color: black;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 4.725px;
@@ -752,7 +631,6 @@ h1 {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 2.7px;
-
 }
 
 .destination-header-about-title {
@@ -825,5 +703,163 @@ h1 {
   max-width: 100%;
   height: 3px;
   background: #FFF;
+}
 
+.crew-body {
+  background: #0B0D17;
+}
+
+.crew-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.crew-header__crew-logo {
+  display: inline-block;
+}
+
+.crew-line {
+  width: 260px;
+  height: 1px;
+  flex-shrink: 0;
+  opacity: 0.2515;
+  background: #FFF;
+  position: absolute;
+  left: 520px;
+  z-index: 2;
+}
+
+.crew-header__crew-navbar-list {
+  padding-left: 121px;
+  padding-right: 162px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.04);
+  -webkit-backdrop-filter: blur(40.7742271423px);
+          backdrop-filter: blur(40.7742271423px);
+  color: rgba(255, 255, 255, 0.0392156863);
+  position: relative;
+  z-index: 1;
+}
+
+.crew-list__crew-content {
+  width: 600px;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.crew-list__crew-item {
+  color: #FFF;
+  font-family: "Barlow", Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.7px;
+}
+
+.crew-list__crew-span {
+  color: #FFF;
+  font-family: "Barlow", Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.7px;
+  margin-right: 12px;
+}
+
+.technology-body {
+  background-image: url("../../Images/technology-bg-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.site-technology {
+  padding: 43px;
+}
+
+.header__content-technology {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo-link-technology {
+  display: inline-block;
+}
+
+.technology__list-card {
+  width: 830px;
+  height: 96px;
+  background: rgba(255, 255, 255, 0.04);
+  -webkit-backdrop-filter: blur(40.7742271423px);
+          backdrop-filter: blur(40.7742271423px);
+}
+
+.technology__navbar {
+  padding-top: 39px;
+  padding-left: 123px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.technology__navbar + .technology__navbar {
+  margin-left: 50px;
+}
+
+.technology__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.technology__item + .technology__item {
+  margin-left: 50px;
+}
+
+.technology__link {
+  color: #FFF;
+  font-family: Barlow Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.7px;
+}
+
+.technology-section {
+  padding: 76px 0 0 110px;
+}
+
+.technology__title {
+  color: #FFF;
+  font-family: Barlow Condensed;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4.725px;
+}
+
+.technology__spans {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.technology__span {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.technology__span-text {
+  color: black;
 }/*# sourceMappingURL=main.css.map */
