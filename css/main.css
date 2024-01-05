@@ -341,6 +341,19 @@ template {
   padding: 0 20px;
 }
 
+
+.technology-body {
+  background-image: url("../../Images/technology-bg-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.site-technology {
+  padding: 43px;
+}
+
+.header__content-technology {
+
 .crew-body {
   background: #0B0D17;
 }
@@ -362,6 +375,22 @@ template {
   align-items: center;
   justify-content: space-between;
 }
+
+.header__logo-link-technology {
+  display: inline-block;
+}
+
+.technology__list-card {
+  width: 830px;
+  height: 96px;
+  background: rgba(255, 255, 255, 0.04);
+  -webkit-backdrop-filter: blur(40.7742271423px);
+          backdrop-filter: blur(40.7742271423px);
+}
+
+.technology__navbar {
+  padding-top: 39px;
+  padding-left: 123px;
 
 .crew-header__crew-logo {
   display: inline-block;
@@ -399,6 +428,11 @@ template {
   align-items: center;
   justify-content: space-between;
 }
+.technology__navbar + .technology__navbar {
+  margin-left: 50px;
+}
+
+.technology__list {
 
 .crew-list__crew-item {
   color: #FFF;
@@ -485,6 +519,11 @@ template {
   justify-content: space-between;
 }
 
+.technology__item + .technology__item {
+  margin-left: 50px;
+}
+
+.technology__link {
 .hero__content {
   width: 475px;
 }
@@ -615,6 +654,12 @@ template {
   letter-spacing: 2.7px;
 }
 
+.technology-section {
+  padding: 76px 0 0 110px;
+}
+
+.technology__title {
+
 .destination-header__box {
   margin-top: 77px;
   display: flex;
@@ -627,6 +672,27 @@ template {
   font-family: Barlow Condensed;
   font-size: 28px;
   font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4.725px;
+}
+
+.technology__spans {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.technology__span {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.technology__span-text {
+  color: black;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 4.725px;
