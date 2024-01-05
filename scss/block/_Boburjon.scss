@@ -10,9 +10,20 @@
     align-items: center;
 }
 .destination-header__nav{
-    padding: 39px 167px 38px 123px;
+    padding: 39px 167px 0 123px;
     background: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(40.774227142333984px);
+}
+.destination-header__navbar::before{
+    content: " ";
+    width: 315px;
+    height: 1px;
+    opacity: 0.2515;
+    background-color: #FFF;
+    position: absolute;
+    left: -280px;
+    top: 48px;
+    bottom: 0;
 }
 .destination-header__navbar-list{
     display: flex;
@@ -21,7 +32,9 @@
 .destination-header__navbar-link{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+}
+.destination-header__about-navbar-link-text{
+    margin-bottom: 38px;
 }
 .destination-header__navbar-link:hover  span{
     max-width: 100%;
