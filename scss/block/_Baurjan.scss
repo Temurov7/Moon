@@ -1,0 +1,206 @@
+.technology-body{
+    background-image: url("../../Images/technology-bg-img.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.site-technology{
+    padding: 43px;
+}
+.header__content-technology{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__logo-link-technology{
+    display: inline-block;
+}
+.technology__list-card{
+    width: 830px;
+    height: 96px;
+    padding: 39px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.774227142333984px);
+}
+.technology__navbar{
+    width: 830px;
+    height: 96px;
+    padding: 39px 0;
+    margin-left: 123px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & + & {
+        margin-left: 50px;
+    }
+}
+.technology__navbar::before{
+    content: " ";
+    width: 315px;
+    height: 1px;
+    opacity: 0.2515;
+    background-color: #FFF;
+    position: absolute;
+    left: -280px;
+    top: 48px;
+    bottom: 0;
+}
+.technology__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.technology__item{
+    position: relative;
+    & + & {
+        margin-left: 50px;
+    }
+}
+.technology__link{
+    color: #FFF;
+    font-family: Barlow ,serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.7px;
+    overflow: hidden;
+}
+.technology__link::before{
+        content: " ";
+        width: 0;
+        height: 3px;
+        background-color: #FFF;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        top: 53px;
+        position: absolute;
+    }
+    .technology__link:hover::before{
+        width: 100%;
+    }
+    .technology__link:active::before{
+        width: 100%;
+        opacity: 0.5;
+    }
+.technology-section{
+    padding: 76px 0 0 62px;
+}
+.technology__content{
+    margin-top: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.technology__title{
+    width: 382px;
+    font-family: Barlow,serif;
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.725px;
+}
+.technology__bold{
+    color: #FFF;
+    font-size: 28px;
+    font-family: Barlow,serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4.725px;
+    opacity: 0.25;
+}
+.technology__spans{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.technology__span{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    background-color: #fff;
+    color: black;
+    border-radius: 50%;
+    font-family: Bellefair,serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+     
+}
+.technology__span:hover{
+    border: 1px solid #fff;
+    background:transparent;
+    color: #FFF;
+    text-align: center;
+    font-family: Bellefair,serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+   
+}
+.technology__span:active{
+    border: 1px solid #fff;
+    background:transparent;
+    color: #FFF;
+    text-align: center;
+    font-family: Bellefair,serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    opacity: 0.25;
+}
+.technology__terminology{
+    display: flex;
+    flex-direction: column;
+}
+.technology__strong{
+    color: #D0D6F9;
+    font-size: 16px;
+    font-family: Barlow,serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.7px;
+    margin-bottom: 11px;
+}
+.technology__title-launch{
+    color: #FFF;
+    font-family: Bellefair,serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 17px;
+}
+.technology__text{
+    width: 444px;
+    color: #D0D6F9;
+    font-family: Barlow,serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+.technology__img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: start;
+}
