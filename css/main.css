@@ -13,7 +13,6 @@ body {
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
-   ========================================================================== */
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
@@ -24,7 +23,6 @@ html {
 }
 
 /* Sections
-   ========================================================================== */
 /**
  * Remove the margin in all browsers.
  */
@@ -49,7 +47,6 @@ h1 {
 }
 
 /* Grouping content
-   ========================================================================== */
 /**
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
@@ -70,7 +67,6 @@ pre {
 }
 
 /* Text-level semantics
-   ========================================================================== */
 /**
  * Remove the gray background on active links in IE 10.
  */
@@ -136,7 +132,6 @@ sup {
 }
 
 /* Embedded content
-   ========================================================================== */
 /**
  * Remove the border on images inside links in IE 10.
  */
@@ -144,8 +139,6 @@ img {
   border-style: none;
 }
 
-/* Forms
-   ========================================================================== */
 /**
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
@@ -290,7 +283,6 @@ textarea {
 }
 
 /* Interactive
-   ========================================================================== */
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
@@ -306,7 +298,6 @@ summary {
 }
 
 /* Misc
-   ========================================================================== */
 /**
  * Add the correct display in IE 10+.
  */
@@ -707,6 +698,14 @@ h1 {
 
 .crew-body {
   background: #0B0D17;
+  background-image: url(../Images/bitmap-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.crew-header {
+  margin-top: 71px;
+
 }
 
 .crew-header {
@@ -752,6 +751,8 @@ h1 {
   justify-content: space-between;
 }
 
+.crew-list__crew-item .crew-link {
+
 .crew-list__crew-item {
   color: #FFF;
   font-family: "Barlow", Condensed;
@@ -773,6 +774,30 @@ h1 {
   margin-right: 12px;
 }
 
+.crew-img-brat {
+  position: absolute;
+  right: 365px;
+  bottom: 0;
+}
+
+.crew-all {
+  display: flex;
+}
+
+.crew-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 120px;
+}
+
+.crew-meet {
+  display: inline-flex;
+  padding-right: 4px;
+  align-items: flex-start;
+  gap: 24px;
+  color: #FFF;
+  font-family: "Barlow", Condensed;
 .technology-body {
   background-image: url("../../Images/technology-bg-img.jpg");
   background-repeat: no-repeat;
@@ -900,6 +925,15 @@ h1 {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 4.725px;
+  text-transform: uppercase;
+  margin-bottom: 154px;
+  margin-top: 76px;
+}
+
+.number {
+  color: #FFF;
+  font-family: "Barlow", Condensed;
+  font-size: 28px;
 }
 
 .technology__bold {
@@ -911,6 +945,8 @@ h1 {
   line-height: normal;
   letter-spacing: 4.725px;
   opacity: 0.25;
+  margin-right: 24px;
+}
 }
 
 .technology__spans {
@@ -1088,4 +1124,36 @@ h1 {
 .technology__span-text {
   color: black;
 
+.crew-commander {
+  color: #FFF;
+  font-family: "Bellefair";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  opacity: 0.5042;
+  margin-bottom: 15px;
+}
+
+.crew__crew-title {
+  color: #FFF;
+  font-family: "Bellefair";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 27px;
+}
+
+.crew__crew-text {
+  width: 444px;
+  color: #D0D6F9;
+  font-family: Barlow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+  margin-bottom: 120px;
 }/*# sourceMappingURL=main.css.map */
